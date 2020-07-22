@@ -105,7 +105,7 @@ return [
         ],
         'locale' => [
             'country' => '45',
-            'province' => 'SP',
+            'province' => 'AL',
             'timezone' => 'America/Sao_Paulo',
         ],
         'admin' => [
@@ -162,8 +162,8 @@ return [
             'debug' => false,
         ],
         'recaptcha' => [
-            'public_key' => '',
-            'private_key' => '',
+            'public_key' => '6LcugqUZAAAAABf6CypnA6LvvCR_aOReZTDiKkJk',
+            'private_key' => '6LcugqUZAAAAANsnAz5K7vw-rO5yXtAomkwdfEA3',
             'options' => [
                 'secure' => true,
                 'lang' => 'pt',
@@ -192,12 +192,12 @@ return [
     ],
 
     'report' => [
-        'debug' => env('REPORTS_DEBUG', false),
+        'debug' => env('REPORTS_DEBUG', true),
         'caminho_fundo_certificado' => '',
         'caminho_fundo_carteira_transporte' => '',
-        'lei_estudante' => 'Lei municipal',
+        'lei_estudante' => 'Conforme Medida Provisória n° 2208, de 17 de agosto de 2001. O portador desta carteira terá como direito pessoal e intransferível.',
         'lei_conclusao_ensino_medio' => '',
-        'portaria_aprovacao_pontos' => 'Resolução n° 12/2011 - CME, Artigo 7°, § 2°;',
+        'portaria_aprovacao_pontos' => 'Conforme Portaria N/20/24/05/2010',
         'modelo_ficha_individual' => 'todos',
         'mostrar_relatorios' => '',
         'logo_file_name' => env('REPORTS_LOGO', 'brasil.png'),
